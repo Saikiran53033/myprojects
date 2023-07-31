@@ -1,0 +1,33 @@
+Install requirements
+
+--> download python from python.org
+open cmd and type following commands 
+
+--> pip install django 
+
+        start project
+        -------------
+        django-admin startproject tedblog
+
+        cd tedblog
+
+        start app
+        ---------
+        python manage.py startapp elonapp 
+
+--> python manage.py makemigrations
+
+--> python manage.py migrate
+
+--> python manage.py createsuperuser
+
+--> python manage.py runserver  
+
+you should get this -->
+
+Django version 3.2.12, using settings 'DjCropsRecommendation.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+copy --> http://127.0.0.1:8000/
+paste in any browser 
